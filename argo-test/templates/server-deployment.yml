@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: hcmuleva/multi-server
+          image: hcmuleva/multi-server:2.2
           ports:
             - containerPort: 5000
           env:
